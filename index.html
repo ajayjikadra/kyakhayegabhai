@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>kya khayega bhai</title>
+    <meta name="description" content="ordering food">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="project2.css">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,500&family=Baloo+Bhai+2:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width:1170px)" href="phone.css">
+    <link rel="stylesheet" media="screen and (max-width:750px)" href="small.css">
+
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img/logo.PNG" alt="kyakhayegabhai.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services">Services</a></li>
+            <li class="item"><a href="#available">Available On</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+            <!-- <button class="btn1">call Now</button> -->
+
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 id="mm" onmouseover="mOver(this)" onmouseout="mOut(this)" class="h-primary">Welcome To Kya Khayega Bhai ?</h1>
+        <p>Hello, We Are Happy To Serve You Best And Fresh Fast Food.</p>
+        <p>Your Test Is Our Frist Prayority</p>
+        <button  onmouseover="mmhomeover(this)" onmouseout="mmhomeout(this)" id="mmhome" class="btn">Order Your Happyness</button>
+    </section>
+    <section class="service-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/pizza.PNG" alt="">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center">We Are Available For Your Food Order, And We Are Happy To Help You</p>
+            </div>
+            <div class="box">
+                <img src="img/cod.PNG" alt="">
+                <h2 class="h-secondary center">Cash On Delivery</h2>
+                <p class="center">We Are Provide You Cash On Delivery, And We Are Happy To Help You</p>
+            </div>
+            <div class="box">
+                <img src="img/Capture.PNG" alt="">
+                <h2 class="h-secondary center">Fast And Free Delivery</h2>
+                <p class="center">We Are Provide You Fast And Free Delivery, And We Are Happy To Help You</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="availble-container">
+        <h1 class="h-primary center">We Are Availble On</h1>
+        <div id="available">
+            <div class="box">
+                <img src="img/zometo.PNG" alt="">
+                <h2 class="h-secondary center">
+                    <a href="https://www.zomato.com/" target="_blank">On Zomato</a>
+
+            </div>
+            <div class="box">
+                <img src="img/final sweegy.PNG" alt="">
+                <h2 class="h-secondaryswiggy center">
+                    <a href="https://www.swiggy.com/" target="_blank">On Swiggy</a>
+
+                </h2>
+
+            </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">Grab Your Offer</h1>
+        <div id="contact-box">
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Full Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Id:</label>
+                    <input type="text" name="email" id="email" placeholder="Enter Your Email Adress">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone No:</label>
+                    <input type="text" name="phone" id="phone" placeholder="Enter Your Phone Number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" cols="10" rows="5"
+                        placeholder="Type Your Experince With Us........"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn">Submit</button>
+                    <button type="reset" class="btn">Reset</button>
+                </div>
+            </form>
+        </div>
+
+    </section>
+    <footer>
+        <div class="center">
+            CopyWrite &copy; www.kyakhayegabhai.com All Right Reseved
+        </div>
+    </footer>
+    <script>
+        function mOver(obj) {
+            obj.innerHTML = "Thank You to Visit 🍔"
+            
+        }
+        
+        function mOut(obj) {
+            obj.innerHTML = "Welcome To Kya Khayega Bhai !!"
+          
+        }
+        function mmhomeover(obj){
+            obj.innerHTML = " ORDER INSTANTLY"    
+        }    
+        function mmhomeout(obj){
+            obj.innerHTML = "Order Your Happyness"
+        }    
+        </script>
+</body>
+
+</html>

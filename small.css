@@ -1,0 +1,104 @@
+#navbar{
+    flex-direction: column;
+    height: 180px;
+    
+}
+#navbar{
+
+    height: 123px;
+    
+ }
+
+ #logo{
+    margin: 10px 15px;
+ }
+ #logo img{
+    height: 60px;
+    width: 100px;
+    margin: 3px 4px;
+ }
+
+ #navbar ul li a:hover{
+  
+    font-size: 0px;
+    
+ }
+#navbar ul li {
+    font-size: 0.6rem;
+}
+#available .box img {
+    height: 100px;
+}
+#available .box {
+    padding: 34px 10px;
+}
+.h-secondary {
+   padding: 7px;
+   font-size: 1.5rem;
+}
+.h-secondaryswiggy {
+   padding: 7px;
+   font-size: 1.5rem;
+}
+#available {
+    
+    height: 217px;
+   
+}
+#home::before {
+    height: 100%;
+    opacity: 0.7;
+}
+#contact::before {
+    top: 68px;
+    height: 94%;
+}
+#contact-box form {
+    width: 80%;
+}
+
+/* hover section */
+
+#logo img:hover{
+    height: 66px;
+    width: 120px;
+  
+ }
+ #services .box img:hover{
+    height: 170px;
+   
+}
+#services .box img{
+    height: 150px;
+    border-radius: 9px;
+    
+
+}
+.h-primary:hover{ 
+    /* font-size: 2.5rem;   */
+    padding: 10px;
+ }
+ .h-secondary a:hover{
+
+    font-size: 20px;
+ }
+ .h-secondaryswiggy a:hover{
+   
+    font-size: 20px;
+ }
+
+#available .box img:hover{
+    height: 100px;
+   
+}
+#navbar ul li a:hover{
+   
+    font-size: 10px;
+    
+ }
+ #home .btn:hover{
+    font-size: 20px;
+} 
+#mm:hover{
+    font-size: 30px;
+}
